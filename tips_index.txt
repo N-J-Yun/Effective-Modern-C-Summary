@@ -1,0 +1,11 @@
+//항목 1
+Modern_C++_tip_1 : template에서의 타입 추론(포인터, 참조, 값)
+Modern_C++_tip_2 : template에서의 타입 추론(배열에서 포인터로의 붕괴(decay)) + 활용
+Modern_C++_tip_3 : template에서의 타입 추론(함수에서 포인터로의 붕괴(decay))
+
+//항목 2
+Modern_C++_tip_4 : auto 타입 추론은 template 타입 추론과 거의 같다(몇가지 예외만 빼고)
+
+//항목 3
+Modern_C++_tip_5 : decltype의 타입 추론 + 후행 반환 타입 예시 + 주의 사항
+Modern_C++_tip_6 : decltype(auto) 사용법
