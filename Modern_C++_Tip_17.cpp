@@ -40,5 +40,11 @@ void swap(T (&a)[N],
 		  T (&b)[N]) noexcept(noexcept(swap(*a, *b)));
 // 이 함수가 noexcept인지 여부는 noexcept절 안의 표현식이 noexcept인 지에 의존한다.
 // 따라서 Widget 클래스 내부에 정의된 Widget끼리 swap하는 함수가 noexcept인 지의 여부에 따라
-// Widget 배열의 swap도 noexcep인 지가 결정된다.
+// Widget 배열의 swap도 noexcept인 지가 결정된다.
 
+// 대부분의 함수는 예외 중립적이다.
+// 예외 중립적인 함수는 스스로 예외를 던지지는 않지만, 예외를 던지는 함수를 호출할 수는 있다.
+// 다른 함수가 예외를 던지면 예외 중립적 함수는 그 예외를 그대로 통과시킨다.
+// 이러한 함수는 절대 noexcept가 될 수 없다.
+
+// 이런 함수를 억지로 예외를 던지지 않는 함수로 수정하려고 하면 구현이 매우 복잡해지고 유지보수가 힘들어질 수 있다.

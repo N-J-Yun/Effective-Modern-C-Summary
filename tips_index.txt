@@ -41,4 +41,16 @@ Modern_C++_tip_16 : 멤버 함수에 참조 한정자를 붙혀 오버로딩을 
 //항목 13*		  : const_iterator를 되도록 사용하자, 하지만 일반적인 경우에 대해서는 begin, rbegin 같은 비멤버 함수를 사용하자.
 
 //항목 14
-Modern_C++_tip_17 : noexcept 키워드
+Modern_C++_tip_17 : noexcept 키워드는 매우 중요하지만, 신중하게 사용해야 한다.
+
+//항목 15
+Modern_C++_tip_18 : constexpr는 쓸 수 있다면 반드시 사용하자.
+
+//항목 16
+Modern_C++_tip_19 : const 멤버 함수는 스레드에 안전하게 작성하자(특히 mutable 멤버 변수를 건드릴 경우)
+
+//항목 17
+Modern_C++_tip_20 : 특수 멤버 함수 6가지의 동작 및 Rule of Five
+
+//항목 18
+Modern_C++_tip_21 : 소유권 독점 자원관리에는 unique_ptr을 사용하자.
