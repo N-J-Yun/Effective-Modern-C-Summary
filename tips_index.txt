@@ -53,4 +53,14 @@ Modern_C++_tip_19 : const 멤버 함수는 스레드에 안전하게 작성하�
 Modern_C++_tip_20 : 특수 멤버 함수 6가지의 동작 및 Rule of Five
 
 //항목 18
-Modern_C++_tip_21 : 소유권 독점 자원관리에는 unique_ptr을 사용하자.
+Modern_C++_tip_21 : 소유권 독점 자원관리에는 unique_ptr를 사용하자.
+
+//항목 19
+Modern_C++_tip_22 : shared_ptr의 구조 및 주의사항
+Modern_C++_tip_23 : 소유권 공유 자원관리에는 shared_ptr를 사용하자.
+
+//항목 20
+Modern_C++_tip_24 : weak_ptr 사용법
+
+//항목 21
+Modern_C++_tip_25 : make 함수를 사용하자!(make_shared, make_unique, allocate_shared)
