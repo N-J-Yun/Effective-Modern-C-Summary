@@ -64,3 +64,19 @@ Modern_C++_tip_24 : weak_ptr 사용법
 
 //항목 21
 Modern_C++_tip_25 : make 함수를 사용하자!(make_shared, make_unique, allocate_shared)
+
+//항목 22
+Modern_C++_tip_26 : 스마트 포인터를 사용한 Pimpl idiom
+
+//항목 23
+Modern_C++_tip_27 : std::move의 이해(std::move는 rvalue로 무조건적인 casting을 수행한다)
+Modern_C++_tip_28 : std::forward의 이해(std::forward는 인자가 rvalue이면 rvalue casting을 수행한다)
+
+//항목 24
+Modern_C++_tip_29 : rvalue reference와 universal reference를 구분할 줄 알아야 한다.
+
+//항목 25
+Modern_C++_tip_30 : rvalue reference - std::move / universal reference - std::forward를 사용하자(RVO를 고려해야한다)
+
+//항목 26
+Modern_C++_tip_31 : universal reference에 대한 오버로딩을 해서는 안된다.
