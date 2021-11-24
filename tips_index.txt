@@ -80,3 +80,35 @@ Modern_C++_tip_30 : rvalue reference - std::move / universal reference - std::fo
 
 //항목 26
 Modern_C++_tip_31 : universal reference에 대한 오버로딩을 해서는 안된다.
+
+//항목 27
+Modern_C++_tip_32 : universal reference에 대한 오버로딩 대체 기법(Tag Dispatch)
+Modern_C++_tip_33 : universal reference에 대한 오버로딩 대체 기법(std::enable_if_t)
+Modern_C++_tip_34 : Perfect forwarding의 난해한 에러메시지 해결법
+
+//항목 28
+Modern_C++_tip_35 : 참조 축약(T& &&같은 상황)이 발생하는 4가지 문맥
+
+//항목 29
+Modern_C++_tip_36 : 이동 연산이 존재하지 않고, 저렴하지 않고, 적용되지 않을 것이라고 가정하자.
+
+//항목 30
+Modern_C++_tip_37 : perfect forwarding이 실패하는 경우
+
+//항목 31
+Modern_C++_tip_38 : lambda의 closure, capture list이해
+Modern_C++_tip_39 : lambda의 default capture mode를 사용하지 말자(by-reference, by-value)
+
+//항목 32
+Modern_C++_tip_40 : init capture기법(lambda capture시 copy보다 move가 더 효율적일 때)
+
+//항목 33
+Modern_C++_tip_41 : std::forward를 통해서 auto&&로 람다 매개변수를 받는다면 decltype을 사용하자.
+
+//항목 34*		  : std::bind보다 lambda를 사용하는 것이 훨씬 좋다.
+
+//항목 41
+Modern_C++_tip_42 : 매개변수의 by-value 전달을 고려해야하는 경우
+
+//항목 42
+Modern_C++_tip_43 : emplace 함수를 사용할 때에는 제대로 된 인수를 넘겨주는 데 특별히 신경을 써야 한다

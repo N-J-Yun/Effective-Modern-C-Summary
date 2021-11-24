@@ -16,7 +16,6 @@ int main()
 	logAndAdd(std::string("Persephone"));						// rvalue를 넘겨주기 때문에 복사대신 이동을 할 수 있으나 현재 연산에서는 복사하였다.
 	logAndAdd("Patty Dog");										// rvalue를 임시로 생성하여 emplace에 전달한다.
 																// 임시 객체를 생성하지 않고 다이렉트로 자료구조에 넘겨준다면 더 효율적일 것이다.
-
 	return 0;
 }
 
